@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amatic SC', cursive;
+  color: #ffffff;
+}
+
+/* NAVIGATION BAR */
+.navigation-bar {
+  opacity: 60%;
+}
+.navigation-bar:hover {
+  opacity: 100%;
+}
+.nav-item a {
+  font-family: 'Amatic SC', cursive;
+  color: #ffffff !important;
+  font-size: 25px;
+  margin: -10px 4px;
+}
+.nav-item a:hover {
+  background-color: #b5b5b5;
+  color: #000000!important;
+}
+/* HEADER with IMAGE */
+
+.my-header{
+  font-family: 'Amatic SC', cursive;
+}
+header{
+  background-image: url('../images/pizza.jpg');
+  min-height: 580px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  filter: grayscale(50%);
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.center a{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 7px 12px;
+  border-radius: 0;
+}
+.center a:hover{
+  background-color: #B5B5B5;
+  color: #000000;
+}
+.center h1{
+    font-size: 100px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+}
+
+/* MENU */
+
+.menu-container{
+  background-color: #000000;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  padding: 50px;
+}
+.menu-container h1{
+  font-weight: bold;
+}
+.menu-container h6{
+  font-size: 35px;
+  color: #000000;
+}
+.menu-header{
+  padding: 75px;
+  font-size: 65px;
+  color: #ffffff;
+}
+.menu{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu a{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 37px;
+  padding: 7px 128px;
+  border-radius: 0;
+}
+.menu a:hover{
+  background-color: #E92B2B!important;
+  color: #000000;
+}
+
+/* ABOUT SECTION */
+
+.abt-container{
+  background-color: #E92B2B;
+  font-family: 'Amatic SC', cursive;
+  /* font-weight: bold; */
+  padding: 50px;
+  filter: grayscale(75%);
+  color: #ffffff!important;
+}
+.about{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.abt-header{
+  padding: 75px;
+  font-size: 65px;
+  color: #ffffff;
+}
+.about p{
+  font-size: 27px;
+  text-align: justify;
+  color: #ffffff;
+}
+.chef img{
+  height: 100px;
+  width: 150px;
+}
+.map-container img{
+  height: 100%;
+  width: 100%;
+}
+
+/* CONTACT */
+
+.contact-container{
+  background-color: #607d8b;
+  font-family: 'Amatic SC', cursive;
+  padding: 50px;
+}
+.contact{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.conttact-header{
+  padding: 75px;
+  font-size: 65px;
+  color: #ffffff;
+}
+.contact p{
+  font-size: 27px;
+  text-align: justify;
+  color: #ffffff;
+}
